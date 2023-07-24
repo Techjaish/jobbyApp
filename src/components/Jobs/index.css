@@ -1,0 +1,145 @@
+.job-container {
+  background-color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.section-container {
+  display: flex;
+}
+.container1 {
+  width: 30%;
+  padding: 15px;
+}
+.user-img {
+  height: 50px;
+  width: 50px;
+}
+.user-name {
+  color: #b6c5ff;
+  font-size: 13px;
+}
+.user-description {
+  color: #64748b;
+  font-size: 10px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.filter {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+.job-item {
+  background-color: #272727;
+  height: 400px;
+  width: 80%;
+  border: 1px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.job-item-container {
+  display: flex;
+}
+.img {
+  width: 60px;
+  height: 60px;
+}
+.company-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.title {
+  color: #f1f5f9;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.spacial {
+  display: flex;
+}
+.star {
+  color: yellow;
+}
+.detail {
+  color: #7e858e;
+  font-size: 10px;
+}
+.user-spacial {
+  display: flex;
+  justify-content: space-between;
+}
+.userspecializing {
+  min-width: 300px;
+}
+.description {
+  color: #7e858e;
+  font-size: 10px;
+}
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.labelEl {
+  color: #f8fafc;
+  font-size: 10px;
+}
+.job-section-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.user-spacial {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cbd5e1;
+}
+.userspecializing {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+.userdetail {
+  width: 100px;
+}
+.userId {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  width: 100%;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.no-data-found {
+  color: #ffffff;
+  font-size: 30px;
+}
+.link-style {
+  text-decoration: none;
+}
+.input-container {
+  background-color: #272727;
+  display: flex;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+.inputEl {
+  background-color: transparent;
+  color: #ffffff;
+}
+.search-button {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

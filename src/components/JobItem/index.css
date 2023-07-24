@@ -1,0 +1,131 @@
+.main-job-container {
+  background-color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+}
+.job-items {
+  background-color: #272727;
+  min-height: 400px;
+  width: 80%;
+  border: 1px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.job-item-container {
+  display: flex;
+}
+.img {
+  width: 60px;
+  height: 60px;
+}
+.company-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.title {
+  color: #f1f5f9;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.spacial {
+  display: flex;
+}
+.star {
+  color: yellow;
+}
+.detail {
+  color: #7e858e;
+  font-size: 10px;
+}
+.user-spacial {
+  display: flex;
+  justify-content: space-between;
+}
+.userspecializing {
+  min-width: 300px;
+}
+.description {
+  color: #7e858e;
+  font-size: 10px;
+}
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.labelEl {
+  color: #f8fafc;
+  font-size: 10px;
+}
+.job-section-container {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.user-spacial {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cbd5e1;
+}
+.userspecializing {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+.userdetail {
+  width: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-set {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.skill-img {
+  width: 50px;
+  height: 50px;
+}
+.Oneskills {
+  display: flex;
+  color: #ffffff;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+}
+.lifeCompanyContainer {
+  display: flex;
+}
+.company-content {
+  display: flex;
+  flex-direction: column;
+}
+.company-img {
+  width: 170px;
+  height: 170px;
+}
+.similar-item-container {
+  background-color: #272727;
+  height: 450px;
+  width: 300px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.similar-container {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.description-container {
+  display: flex;
+  justify-content: space-between;
+}

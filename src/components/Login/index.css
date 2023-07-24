@@ -1,0 +1,36 @@
+.main-container {
+  background-color: #272727;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user-container {
+  background-color: #475569;
+  height: 300px;
+  width: 330px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.userform-container {
+  margin-top: 20px;
+}
+.userInfo1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.label {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+}
+.error {
+  color: red;
+  font-size: 10px;
+}
