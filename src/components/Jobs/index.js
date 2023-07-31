@@ -120,8 +120,9 @@ const JobItem = props => {
     rating,
     title,
   } = eachJobItem
+  console.log(id)
   return (
-    <Link to={`/jobs/:${id}`} className="link-style">
+    <Link to={`/jobs/${id}`} className="link-style">
       <li className="job-item">
         <div className="job-item-container">
           <img src={companyLogoUrl} className="img" alt="company logo" />

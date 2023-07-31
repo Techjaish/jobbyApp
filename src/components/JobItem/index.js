@@ -130,11 +130,8 @@ class JobItem extends Component {
     console.log(params)
 
     const {id} = params
-    console.log(id)
-    const NewId = id.slice(1, id.length)
-    console.log(NewId)
     const Token = Cookies.get('jwt_token')
-    const url = `https://apis.ccbp.in/jobs/${NewId}`
+    const url = `https://apis.ccbp.in/jobs/${id}`
     const options = {
       headers: {
         Authorization: `Bearer ${Token}`,
@@ -239,7 +236,6 @@ class JobItem extends Component {
   updateState = () => {
     this.setState(
       {
-        ApiStatus: apiStatusObj.initial,
         isLoader: false,
       },
       this.getJobs,

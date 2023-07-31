@@ -13,11 +13,11 @@ import './App.css'
 const App = () => (
   <Switch>
     <Route exact path="/login" component={Login} />
-    <Route exact path="/not-found" component={NotFound} />
     <LoginalWay exact path="/" component={Home} />
     <LoginalWay exact path="/jobs" component={Jobs} />
     <LoginalWay exact path="/jobs/:id" component={JobItem} />
-    <Redirect to="/not-found" />
+    <Route exact path="/not-found" component={NotFound} />
+    <Redirect to="not-found" />
   </Switch>
 )
 
